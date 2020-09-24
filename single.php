@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<h1>This the Single type template.</h1>
 <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
 
     <h1><?php the_title(); ?></h1>
